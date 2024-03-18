@@ -83,5 +83,43 @@ padding: 0 30px;
 .seperate{
     height: 08px;
     /* width: ; */
-    background-color: gray;
+    background-color: rgb(187, 175, 175);
+}
+
+.btn{
+    padding: 2px 2px;
+    width:70px;
+font-weight: lighter;
+color: white;
+background-color: rgba(23, 23, 23, 0.333);
+border: 1px solid white;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.btn-red-s{
+    padding: 2px 2px;
+    width:70px;
+    font-weight: bold;
+background-color: red;
+border-radius: 4px;
+color: white;
+}
+
+.btn-red-g{
+    padding: 5px 3px;
+    width:70px;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 15px;
+background-color: red;
+color: white;
+}
+
+.main input{
+    border-radius: 6px;
+    font-size: 15px;
+padding: 5px 3px;
+background-color: rgba(23,23,23,0.2);
+color: azure;
 }
