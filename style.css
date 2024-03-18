@@ -1,21 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
+
+body{
+    background-color: black;
+}
 .main{
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_small.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
-    height: 80vh;
+    height: 70vh;
     position: relative;
 }
 
 .main .box{
-height: 80vh;
+height: 70vh;
 width: 100%;
-opacity: 0.7;
+opacity: 0.60;
 position: absolute;
 top: 0;
 background-color: black;
@@ -23,9 +30,58 @@ background-color: black;
 
 nav{
     display: flex;
-    max-width: 80vw;
+    max-width: 60vw;
     margin: auto;
     justify-content: space-between;
     align-items: center;
     height: 50px;
+}
+
+nav img{
+    color: red;
+    width: 104px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    font-family: 'Martel Sans', sans-serif;  
+    height: calc(100% - 58px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+position: relative;
+gap: 8px;
+padding: 0 30px;
+}
+
+.hero> :first-child{
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :n-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :n-child(3){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.seperate{
+    height: 08px;
+    /* width: ; */
+    background-color: gray;
 }
